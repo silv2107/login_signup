@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0F0F0F;
+    color: #fff;
+}
+
+body{
+    min-width: 375px;
+    max-height: 812px;
+    background-image: url(../img/shapes.png);
+    background-repeat: no-repeat;
+    /* background-position-x: 110%; */
+    background-position: 200px -150px;
+    padding: 63px 16px 63px 16px;
+}
+
+section{
+    min-width: 343px;
+    min-height: 700px;
+    background-image: url(../img/circle\ pattern.png);
+    background-repeat: no-repeat;
+    background-position: right 330px;
+    /* background-color: red; */
+}
+
+header{
+    max-width: 284px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login{
+    color: rgba(255, 255, 255, 0.952);
+    font-size: 60px;
+    
+}
+
+.signup{
+    color: rgba(255, 255, 255, 0.247);
+    font-size: 30px;
+    
+}
+
+main{
+    background-image: url(../img/visibility.png);
+    background-repeat: no-repeat;
+    background-position: right 63%;
+    min-width: 342.5px;
+    min-height: 198px;
+    position: relative;
+    top: 130px;    
+}
+
+input{
+    margin: 10px 0 20px 0;
+    width: 100%;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid rgb(112, 112, 112);
+}
+
+label{
+    font-size: 22px;
+    font-weight: normal;
+    color:#EF0B74;
+}
+
+form a{
+    position: absolute;
+    right: 0;
+    /* top: -20px;
+    left: 200px; */
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.submit{
+    margin-top: 100px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EF0B74;
+}
+
+footer{
+    height: 71px;
+    width: 220px;
+    position: absolute;
+    bottom: 50px;
+    left: 77.5px; 
+    text-align: center; 
+    font-size: 16px; 
+    color: rgba(255, 255, 255, 0.247); 
+}
+
+div{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
